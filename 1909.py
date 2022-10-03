@@ -12,5 +12,6 @@ def annual_check(day: int, month: int, year: int):
         if 0 < day <= 28:
             return True
     return False
-    
+
+
 print(annual_check(29, 2, 2022))
